@@ -1,0 +1,77 @@
+# Expert System & Fuzzy Logic Learning Project
+# Requirements: MINIMAL - Gunakan Python Standard Library
+
+# Python Version: 3.7+
+# Tidak ada dependency eksternal yang diperlukan!
+
+# ============================================
+# FILOSOFI PROJECT INI:
+# ============================================
+# Project ini SENGAJA tidak menggunakan library eksternal
+# untuk memberikan pemahaman mendalam tentang:
+# 1. Bagaimana sistem pakar bekerja dari dalam
+# 2. Implementasi fuzzy logic dari nol
+# 3. Algoritma Mamdani dan Sugeno secara detail
+#
+# Dengan mengimplementasikan sendiri, Anda akan:
+# - Memahami setiap langkah proses
+# - Tidak tergantung pada "black box" library
+# - Bisa customize sesuai kebutuhan
+# - Menguasai konsep fundamental
+
+# ============================================
+# YANG AKAN DIGUNAKAN (Built-in Python):
+# ============================================
+# - math          : Operasi matematika dasar
+# - collections   : Data structures (namedtuple, defaultdict)
+# - typing        : Type hints untuk code clarity
+# - dataclasses   : Clean class definitions (Python 3.7+)
+# - enum          : Enumerations untuk konstanta
+# - json          : Serialization knowledge base
+# - copy          : Deep copy untuk object manipulation
+
+# ============================================
+# OPTIONAL (Hanya untuk Visualisasi):
+# ============================================
+# Jika Anda ingin membuat grafik untuk visualisasi
+# fungsi keanggotaan (opsional, bukan requirement):
+#
+# matplotlib>=3.5.0
+# 
+# Tapi ingat: visualisasi bisa dilakukan dengan:
+# - Print ASCII art
+# - Export ke CSV lalu buka di spreadsheet
+# - Gunakan plotting tools online
+
+# ============================================
+# TOOLS DEVELOPMENT (Opsional):
+# ============================================
+# Untuk development yang lebih nyaman:
+#
+# pytest>=7.0.0          # Unit testing
+# black>=22.0.0          # Code formatting
+# mypy>=0.950            # Type checking
+# pylint>=2.13.0         # Code linting
+#
+# Tapi sekali lagi, ini OPSIONAL!
+# Core learning bisa dilakukan tanpa tools ini.
+
+# ============================================
+# INSTALASI:
+# ============================================
+# Untuk pure learning (recommended):
+#   Tidak perlu install apapun!
+#   Langsung jalankan: python <file>.py
+#
+# Untuk dengan visualisasi (optional):
+#   pip install matplotlib
+#
+# Untuk development tools (optional):
+#   pip install pytest black mypy pylint
+
+# ============================================
+# VERIFIKASI SETUP:
+# ============================================
+# Jalankan command berikut untuk cek:
+#   python --version
+#   python -c "import math, collections, typing, json; print('Ready to go!')"
